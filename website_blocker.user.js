@@ -18,7 +18,6 @@ const blocked_websites = `
     'use strict';
     // Getting the blocked websites from the custom function
     const blocked_websites_array = blocked_websites.split('\n').filter(i => i);
-    console.log(blocked_websites_array);
 
     // Getting the current domain and URL
     const current_domain = window.location.hostname,
